@@ -8,8 +8,8 @@ the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 */
 
-#include "flowRW_sV.h"
-#include "flowField_sV.h"
+#include "../include/flowRW_sV.h"
+#include "../include/flowField_sV.h"
 
 #include <iostream>
 #include <fstream>

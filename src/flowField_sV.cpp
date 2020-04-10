@@ -8,7 +8,7 @@ the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 */
 
-#include "flowField_sV.h"
+#include "../include/flowField_sV.h"
 #include "string.h"
 #include <iostream>
 
