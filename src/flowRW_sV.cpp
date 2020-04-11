@@ -65,7 +65,7 @@ FlowRW_sV::FlowInfo_sV FlowRW_sV::readInfo(std::string filename)
     return info;
 }
 
-FlowField_sV* FlowRW_sV::load(std::string filename) throw(FlowRWError)
+FlowField_sV* FlowRW_sV::load(std::string filename)
 {
     std::ifstream file(filename.c_str(), std::ios_base::in | std::ios_base::binary);
 
