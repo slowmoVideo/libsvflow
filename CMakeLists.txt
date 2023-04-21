@@ -4,7 +4,11 @@ cmake_minimum_required(VERSION 3.0)
 
 set(CMAKE_CXX_STANDARD 17)
 
-project(libsvflow VERSION 1.0.0 DESCRIPTION "Library for optical flow files")
+if (CMAKE_VERSION VERSION_LESS "3.9.0")
+    project(libsvflow VERSION 1.0.0)
+else ()
+    project(libsvflow VERSION 1.0.0 DESCRIPTION "Library for optical flow files")
+endif ()
 
 set(LIB_SRC_FLOW
         src/flowRW_sV.cpp
